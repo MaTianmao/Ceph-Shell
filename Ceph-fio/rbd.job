@@ -1,0 +1,11 @@
+[global]
+ioengine=libaio
+buffered=0
+rw=write
+bs=4k
+size=10M
+io_size=10M
+iodepth=512
+nrfiles=10
+[job1]
+directory=./sss1

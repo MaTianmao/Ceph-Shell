@@ -1,0 +1,11 @@
+[global]
+ioengine=rados
+pool=ecpool1
+buffered=1
+rw=write
+bs=2M
+size=100G
+io_size=100G
+iodepth=1024
+[job1]
+nr_files=100
